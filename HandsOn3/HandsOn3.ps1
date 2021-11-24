@@ -1,8 +1,8 @@
 # Resource Group 생성
-# az group create -n test-src-jye --location EastUS
+az group create -n test-src-jye --location EastUS
 
 # VNet01 생성
-# az network vnet create -g test-src-jye --location eastus -n VNet01 --address-prefixes 10.0.0.0/8
+az network vnet create -g test-src-jye --location eastus -n VNet01 --address-prefixes 10.0.0.0/8
 
 # NSG01 생성
 az network nsg create -g test-src-jye -n NSG01
